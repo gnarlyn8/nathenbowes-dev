@@ -1,14 +1,20 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import ProjectCard from "./components/ProjectCard";
+import ComingSoon from "./components/ComingSoon";
 import projectsData from "./data/projects.json";
 
 function App() {
   const [projects, setProjects] = useState([]);
+  const maintenanceMode = process.env.REACT_APP_MAINTENANCE === "true";
 
   useEffect(() => {
     setProjects(projectsData.projects);
   }, []);
+
+  if (maintenanceMode) {
+    return <ComingSoon />;
+  }
 
   return (
     <div className="App">
