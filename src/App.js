@@ -61,49 +61,12 @@ function App() {
               <span className="pill">React Native</span>
             </div>
           </div>
-          <div className="card">
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-              }}
-            >
-              <strong>MicroBudget</strong>
-              <span className="muted" style={{ fontSize: "12px" }}>
-                GraphQL • Web + Mobile
-              </span>
-            </div>
-            <div className="thumbs">
-              <div className="thumb"></div>
-              <div className="thumb"></div>
-            </div>
-            <div className="tools">
-              <a
-                className="btn primary"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Demo
-              </a>
-              <a
-                className="btn"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Case Study
-              </a>
-              <a
-                className="btn"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </div>
+          <div className="profile-pic-container">
+            <img
+              src="/profile-pic.png"
+              alt="Nathen Bowes"
+              className="profile-pic"
+            />
           </div>
         </section>
 
