@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "microbudget",
+      "title": "MicroBudget",
+      "summary": "Cross-platform budgeting (Web + Mobile)",
+      "badge": "GraphQL • JWT",
+      "stack": ["React", "TypeScript", "Rails", "GraphQL", "React Native"],
+      "swatch": "var(--gradA)",
+      "links": {
+        "demo": "#",
+        "caseStudy": "#",
+        "github": "#"
+      }
+    },
+    {
+      "id": "surfcast",
+      "title": "SurfCast",
+      "summary": "Surf forecasts with Node + GraphQL",
+      "badge": "Stormglass API",
+      "stack": ["Node", "TypeScript", "GraphQL", "Expo"],
+      "swatch": "var(--gradB)",
+      "links": {
+        "demo": "#",
+        "caseStudy": "#",
+        "github": "#"
+      }
+    },
+    {
+      "id": "tradebook",
+      "title": "TradeBook",
+      "summary": "Trading journal & analytics (Full-stack TS)",
+      "badge": "PnL + Win rate",
+      "stack": ["Next.js", "Prisma", "Postgres", "Charts"],
+      "swatch": "var(--gradC)",
+      "links": {
+        "demo": "#",
+        "caseStudy": "#",
+        "github": "#"
+      }
+    },
+    {
+      "id": "mtb",
+      "title": "MTB Gear Tracker",
+      "summary": "Track bike setups & maintenance",
+      "badge": "Strava import",
+      "stack": ["Rails", "REST", "React", "Maps"],
+      "swatch": "var(--gradD)",
+      "links": {
+        "demo": "#",
+        "caseStudy": "#",
+        "github": "#"
+      }
+    }
+  ]
+}
