@@ -120,6 +120,9 @@ h1 {
   box-shadow: var(--shadow);
   border-radius: 18px;
   padding: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .thumbs {
@@ -161,7 +164,25 @@ h2 {
 .project .head {
   display: flex;
   gap: 12px;
-  align-items: center;
+  align-items: flex-start;
+  height: 80px;
+}
+
+.project h3 {
+  margin: 0 0 4px 0 !important;
+}
+
+.project-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  min-height: 60px;
+  align-items: flex-start;
+}
+
+.project-image {
+  margin-bottom: 16px;
 }
 
 .swatch {
@@ -169,12 +190,14 @@ h2 {
   height: 40px;
   border-radius: 12px;
   background: var(--gradA);
+  flex-shrink: 0;
 }
 
 .cta {
   display: flex;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: auto;
+  padding-top: 10px;
 }
 
 footer {

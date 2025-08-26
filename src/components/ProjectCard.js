@@ -5,21 +5,17 @@ const ProjectCard = ({ project }) => {
     <article className="card project">
       <div className="head">
         <div className="swatch" style={{ background: project.swatch }}></div>
-        <div>
-          <h3 style={{ margin: "0 0 2px 0" }}>{project.title}</h3>
-          <div className="muted" style={{ fontSize: "14px" }}>
+        <div style={{ flex: 1 }}>
+          <h3 style={{ margin: "0 0 4px 0" }}>{project.title}</h3>
+          <div
+            className="muted"
+            style={{ fontSize: "14px", lineHeight: "1.4" }}
+          >
             {project.summary}
           </div>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "8px",
-          marginTop: "8px",
-        }}
-      >
+      <div className="project-tech-stack">
         {project.stack.map((tech, index) => (
           <span key={index} className="pill">
             {tech}
@@ -36,7 +32,6 @@ const ProjectCard = ({ project }) => {
               height: "200px",
               objectFit: "cover",
               borderRadius: "8px",
-              marginTop: "12px",
             }}
           />
         </div>
