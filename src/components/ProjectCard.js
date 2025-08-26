@@ -13,18 +13,6 @@ const ProjectCard = ({ project }) => {
         </div>
       </div>
       <div
-        className="pill"
-        style={{
-          display: "inline-block",
-          marginTop: "8px",
-          background: "#111827",
-          color: "#fff",
-          borderColor: "transparent",
-        }}
-      >
-        {project.badge}
-      </div>
-      <div
         style={{
           display: "flex",
           flexWrap: "wrap",
@@ -38,10 +26,21 @@ const ProjectCard = ({ project }) => {
           </span>
         ))}
       </div>
-      <div className="thumbs">
-        <div className="thumb"></div>
-        <div className="thumb"></div>
-      </div>
+      {project.image && (
+        <div className="project-image">
+          <img
+            src={project.image}
+            alt={`${project.title} screenshot`}
+            style={{
+              width: "100%",
+              height: "200px",
+              objectFit: "cover",
+              borderRadius: "8px",
+              marginTop: "12px",
+            }}
+          />
+        </div>
+      )}
       <div className="cta">
         <a
           className="btn primary"
@@ -50,14 +49,6 @@ const ProjectCard = ({ project }) => {
           rel="noopener noreferrer"
         >
           Live Demo
-        </a>
-        <a
-          className="btn"
-          href={project.links.caseStudy}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Case Study
         </a>
         <a
           className="btn"

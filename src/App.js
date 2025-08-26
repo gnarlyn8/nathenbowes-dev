@@ -24,10 +24,6 @@ function App() {
           <nav>
             <a href="#projects">Projects</a>
             <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            <a className="btn" href="#resume">
-              Resume
-            </a>
           </nav>
         </div>
       </header>
@@ -37,28 +33,23 @@ function App() {
           <div>
             <div className="pill status-pill">
               <span className="status-dot"></span>
-              Open to Front-End roles
+              Open to Full-Stack roles
             </div>
-            <h1>Building clean, reliable web & mobile experiences</h1>
+            <h1>Building clean, reliable web experiences</h1>
             <p className="muted">
-              React • TypeScript • GraphQL • Rails • Node. I like data-heavy
-              UIs, fast feedback loops, and thoughtful UX.
+              I like working end to end, combining great user experiences with
+              well-structured backend code.
             </p>
-            <div style={{ marginTop: "14px", display: "flex", gap: "10px" }}>
-              <a className="btn primary" href="#projects">
-                See Projects
-              </a>
-              <a className="btn" href="#contact">
-                Get in Touch
-              </a>
-            </div>
             <div className="pills">
               <span className="pill">React</span>
               <span className="pill">TypeScript</span>
-              <span className="pill">Rails</span>
               <span className="pill">GraphQL</span>
-              <span className="pill">Node</span>
-              <span className="pill">React Native</span>
+              <span className="pill">Ruby on Rails</span>
+            </div>
+            <div style={{ marginTop: "14px", display: "flex", gap: "10px" }}>
+              <a className="btn" href="#contact">
+                Get in Touch
+              </a>
             </div>
           </div>
           <div className="profile-pic-container">
