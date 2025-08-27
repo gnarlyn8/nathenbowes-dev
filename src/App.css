@@ -330,4 +330,10 @@ footer {
   .hobby-image {
     height: 120px;
   }
+
+  .hobby-grid img:nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: calc(50% - 10px);
+  }
 }
