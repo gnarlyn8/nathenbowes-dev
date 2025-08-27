@@ -4,7 +4,14 @@
       "id": "casapay",
       "title": "Casapay",
       "summary": "Full-stack budget management with loan tracking, hosted on Render.com",
-      "stack": ["React", "TypeScript", "Rails", "GraphQL", "Apollo"],
+      "stack": [
+        "React",
+        "TypeScript",
+        "Rails",
+        "GraphQL",
+        "Apollo",
+        "Tailwind"
+      ],
       "swatch": "var(--gradA)",
       "image": "/casapay-homepage.png",
       "links": {

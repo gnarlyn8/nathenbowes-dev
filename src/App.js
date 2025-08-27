@@ -42,12 +42,6 @@ function App() {
               I like working across the stack, bringing together intuitive user
               experiences and reliable backend systems.
             </p>
-            <div className="pills">
-              <span className="pill">React</span>
-              <span className="pill">TypeScript</span>
-              <span className="pill">GraphQL</span>
-              <span className="pill">Ruby on Rails</span>
-            </div>
           </div>
           <div className="profile-pic-container">
             <img
@@ -70,7 +64,7 @@ function App() {
         <About />
       </main>
 
-      <footer>© {new Date().getFullYear()} Nathen Bowes</footer>
+      <footer>© 2025 Nathen Bowes</footer>
     </div>
   );
 }
