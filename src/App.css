@@ -269,3 +269,65 @@ footer {
     padding: 10px 20px;
   }
 }
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hobby-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid var(--border);
+}
+
+.hobby-image[alt="Biking"] {
+  object-position: center 70%;
+}
+
+.hobby-image[alt="Farming"] {
+  object-position: center 70%;
+}
+
+@media (max-width: 980px) {
+  .about-content {
+    gap: 24px;
+  }
+
+  .hobby-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 600px;
+  }
+
+  .hobby-image {
+    height: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hobby-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 400px;
+  }
+
+  .hobby-image {
+    height: 120px;
+  }
+}

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import ProjectCard from "./components/ProjectCard";
 import ComingSoon from "./components/ComingSoon";
+import About from "./components/About";
 import projectsData from "./data/projects.json";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <header>
         <div className="container bar">
           <div className="brand">Nathen Bowes</div>
+          <p>nate@nathenbowes.dev</p>
           <nav>
             <a href="#projects">Projects</a>
             <a href="#about">About</a>
@@ -35,21 +37,16 @@ function App() {
               <span className="status-dot"></span>
               Open to Full-Stack roles
             </div>
-            <h1>Building clean, reliable web experiences</h1>
+            <h1>Creating thoughtful software with impact</h1>
             <p className="muted">
-              I like working end to end, combining great user experiences with
-              well-structured backend code.
+              I like working across the stack, bringing together intuitive user
+              experiences and reliable backend systems.
             </p>
             <div className="pills">
               <span className="pill">React</span>
               <span className="pill">TypeScript</span>
               <span className="pill">GraphQL</span>
               <span className="pill">Ruby on Rails</span>
-            </div>
-            <div style={{ marginTop: "14px", display: "flex", gap: "10px" }}>
-              <a className="btn" href="#contact">
-                Get in Touch
-              </a>
             </div>
           </div>
           <div className="profile-pic-container">
@@ -69,6 +66,8 @@ function App() {
             ))}
           </div>
         </section>
+
+        <About />
       </main>
 
       <footer>© {new Date().getFullYear()} Nathen Bowes</footer>
