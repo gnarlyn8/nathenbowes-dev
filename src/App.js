@@ -33,7 +33,7 @@ function App() {
       <main>
         <section className="hero container">
           <div>
-            <h1>Creating software that feels good to use.</h1>
+            <h1>Creating software that feels good to use</h1>
           </div>
           <div className="profile-pic-container">
             <img
