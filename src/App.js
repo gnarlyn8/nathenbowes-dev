@@ -34,10 +34,6 @@ function App() {
         <section className="hero container">
           <div>
             <h1>Creating software that feels good to use.</h1>
-            {/* <p className="muted">
-              Thoughtful, reliable systems built around real people and their
-              needs.
-            </p> */}
           </div>
           <div className="profile-pic-container">
             <img
