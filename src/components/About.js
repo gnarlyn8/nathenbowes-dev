@@ -7,7 +7,7 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            I’m a software developer with 4+ years of experience building
+            I’m a software developer with 4 years of experience building
             user-focused features with React, TypeScript, GraphQL, and Ruby on
             Rails. I have contributed to large-scale projects that improved a
             global admin checkout, optimized front-end user flows, and supported
